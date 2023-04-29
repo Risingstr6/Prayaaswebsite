@@ -396,6 +396,9 @@
         
         
         <!-- Testimonial Start -->
+
+
+        <% var arr=["img/testimonial-1.jpg","img/testimonial-2.jpg","img/testimonial-3.jpg","img/testimonial-4.jpg","img/testimonial-5.jpg","img/testimonial-6.jpg","img/testimonial-7.jpg","img/testimonial-8.jpg","img/testimonial-9.jpg","img/testimonial-10.jpg"]%>
         <div class="testimonial">
             <div class="container">
                 <div class="section-header text-center">
@@ -407,7 +410,7 @@
                     <%for(let i in message){%>
                             <div class="testimonial-item">
                                 <div class="testimonial-profile">
-                                    <img src="img/testimonial-1.jpg" alt="Image">
+                                    <img src="<%=arr[i%10]%>" alt="Image">
                                     <div class="testimonial-name">
                                         <h3><%=message[i].name%></h3>
                                         <p><%=message[i].profession%></p>
@@ -453,13 +456,13 @@
                                             <div class="card-header" id="faqHeading-1">
                                                 <div class="mb-0">
                                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                                        <span class="badge">1</span>What is Lorem Ipsum?
+                                                        <span class="badge">1</span>What is Prayaas?
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                                 <div class="card-body">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                                    <p>A social initiative by students of IIIT Allahabad </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -467,13 +470,20 @@
                                             <div class="card-header" id="faqHeading-2">
                                                 <div class="mb-0">
                                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                                        <span class="badge">2</span> Where does it come from?
+                                                        <span class="badge">2</span> What is Prayaas's 6-point strategy? 
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                                 <div class="card-body">
-                                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                                    <ul>
+                                                        <li>Create Awareness</li>
+                                                        <li>Quantify the problem of each child.</li>
+                                                        <li>Involve Volunteers</li>
+                                                        <li>Build public relations</li>
+                                                        <li>Work on scale</li>
+                                                        <li>Evaluate and Improve</li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -481,13 +491,13 @@
                                             <div class="card-header" id="faqHeading-3">
                                                 <div class="mb-0">
                                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                                        <span class="badge">3</span>Why do we use it?
+                                                        <span class="badge">3</span>What is SISS?
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                                 <div class="card-body">
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+                                                    <p>SISS is an add-on course that has been introduced in academic session and is associated with Prayaas</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -495,13 +505,19 @@
                                             <div class="card-header" id="faqHeading-4">
                                                 <div class="mb-0">
                                                     <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                                        <span class="badge">4</span> Where can I get some?
+                                                        <span class="badge">4</span> What are the 5 phases of SISS?
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                                 <div class="card-body">
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                                    <ul>
+                                                        <li>Introduction : An introductory phase where a student gets to interact with the students.</li>
+                                                        <li>Village Life : This phase deals with village visits, donation drive and workshops.</li>
+                                                        <li>Social ED : This phase deals with the core of Prayaas, which is educating the kids.</li>
+                                                        <li>Moral Ed : This deals with various workshops and sessions where we tell them how to identify the ethical aspects of things.</li>
+                                                        <li>Leadership : This deals with the management of Prayaas kids, classes, events and the team.</li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
