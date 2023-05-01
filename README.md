@@ -38,4 +38,13 @@ Live Demo : [Prayaas Website](https://desert-sand-goshawk-kilt.cyclic.app/)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/36665975/59350977-fcc68900-8d3a-11e9-9450-e5c478497caa.png"></img></p>
 
-## GETTING INTO THE PROJECT:
+## FEATURES:
+● About Us section highlighting the organization's mission, vision, and core values.
+● Events section with details, timelines, and galleries showcasing past events.
+● Success stories section to showcase the impact of the organization's work.
+● Alumni base section where former students can connect and share their stories.
+● Contact team section with details for reaching out to the organization's representatives.
+● FAQs section to answer common questions about the organization and its activities.
+● Request form to organize events such as food or sweet distribution through Prayaas.
+● Merchandise section for ordering organization-branded goods.
+● Donation portal with a payment gateway to facilitate easy and secure donations.
